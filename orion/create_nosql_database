@@ -1,16 +1,2 @@
 > use hacktrick
-> db.users.insert({name:'mehmet', password:'1337s7f6d6sd6gf6afh', admin:1});
-> db.users.insert({name:'demo', password:'demo', admin:0});
-> db.users.find().pretty();
-{
-	"_id" : ObjectId("535fc158942e6194621f70bc"),
-	"name" : "mehmet",
-	"password" : "1337s7f6d6sd6gf6afh",
-	"admin" : 1
-}
-{
-	"_id" : ObjectId("535fc15f942e6194621f70bd"),
-	"name" : "demo",
-	"password" : "demo",
-	"admin" : 0
-}
+> db.users.insert({login:'admin', password:'7syd7asyd7ays7f7asf7as7g7gf7as7fhjdssadf', admin:1});
