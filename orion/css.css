@@ -1,0 +1,43 @@
+.page-header {
+    border-bottom: 1px solid #FFFFFF;
+    margin: 20px 0;
+    padding-bottom: 9px;
+    text-align: center;
+}
+
+.form-control {
+    border: 1px solid #D6D6D6;
+    border-radius: 0;
+    box-shadow: none;
+    height: 50px;
+    padding: 6px 15px;
+}
+
+body {
+    background-color: #5C5050;
+}
+
+.row {
+    background: #ededed;
+    padding: 20px 50px 20px 50px;
+    margin: 100px;
+}
+
+legend {
+    border: medium none;
+    color: #7F7F7F;
+    display: block;
+    font-size: 20px;
+    line-height: inherit;
+    margin-bottom: 15px;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 0;
+    border: none;
+    font-size: 21px;
+}

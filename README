@@ -1,0 +1,18 @@
+Level : FUEL
+==========
+Açıklama:
+
+Iptables ile administrator.html dosyasına GET talebi yasaklanmıştır.
+
+Çözüm:
+package fragmentation
+
+Level : ORION
+==========
+
+Açıklama:
+
+MongoDB NoSQL Injection saldırısı.
+
+Çözüm :
+PHP array manipulasyonu ile login bypass
