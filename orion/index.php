@@ -19,10 +19,8 @@ if(isset($_POST["login"]) and isset($_POST["password"]))
 <html>
 <head>
     <title>IntelRAD | Web APP CTF ~ Orion</title>
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css.css">
 </head>
 <body>
@@ -38,7 +36,7 @@ if(isset($_POST["login"]) and isset($_POST["password"]))
                 if($error === True)
                 {
                     echo '<div class="alert alert-danger">Wrong username and password, you kiddo !!!</div>';
-                    unset($error);
+                    unset($error)
                 }
                 ?>
                 <!-- Text input-->
