@@ -16,3 +16,12 @@ MongoDB NoSQL Injection saldırısı.
 
 Çözüm :
 PHP array manipulasyonu ile login bypass
+
+
+Level : khaleesi
+
+Açıklama:
+HTML5 Local storage
+
+Çözüm :
+Developer Console

@@ -36,7 +36,7 @@ if(isset($_POST["login"]) and isset($_POST["password"]))
                 if($error === True)
                 {
                     echo '<div class="alert alert-danger">Wrong username and password, you kiddo !!!</div>';
-                    unset($error)
+                    unset($error);
                 }
                 ?>
                 <!-- Text input-->
